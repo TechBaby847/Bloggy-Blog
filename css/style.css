@@ -38,7 +38,7 @@ Variables
     --clr-grey-8: hsl(210, 31%, 80%);
     --clr-grey-9: hsl(212, 33%, 89%);
     --clr-grey-10: hsl(210, 36%, 96%);
-    --clr-white: rgb(255, 255, 255);
+    --clr-white: #fff;
     --clr-red-dark: hsl(360, 67%, 44%);
     --clr-red-light: hsl(360, 71%, 66%);
     --clr-green-dark: hsl(125, 67%, 44%);
@@ -46,8 +46,8 @@ Variables
     --clr-black: #222;
     --ff-primary: "Roboto", sans-serif;
     --ff-secondary: "Open Sans", sans-serif;
-    --transition: all 0.3s linear;
-    --spacing: 0.25rem;
+    --transition: all 0.5s linear;
+    --spacing: 0.21rem;
     --radius: 0.5rem;
     --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -387,7 +387,6 @@ Sidebar
     text-align: center;
 }
 
-/* added during recording */
 
 .underline {
     width: 5rem;
@@ -406,7 +405,6 @@ Sidebar
 }
 
 .blog {
-    /* margin-top: 35px; */
     padding-top: 50px;
     background: var(--clr-white);
     /* box-shadow: var(--light-shadow); */
@@ -423,7 +421,7 @@ Sidebar
     padding: 20px;
     background: var(--clr-white);
     box-shadow: var(--light-shadow);
-}
+} 
 
 .comment {
     background: var(--clr-white);
@@ -733,7 +731,7 @@ Featured Blogs
     padding: 1.25rem 1.5rem;
 }
 
-/* additional css for different layout*/
+/* additional css*/
 
 .blog-title {
     display: flex;
@@ -751,7 +749,7 @@ Featured Blogs
     color: var(--clr-grey-7);
 }
 
-/* end of additional css for different layout*/
+/* end of additional css*/
 
 .blog-footer {
     display: flex;
@@ -924,7 +922,6 @@ Newsletter
     background: var(--clr-white);
     text-transform: capitalize;
     outline: none;
-    /* border: transparent; */
 }
 
 ::placeholder {
@@ -1230,6 +1227,8 @@ Footer
     background: #222;
     display: grid;
     place-items: center;
+    margin-top: 10rem;
+    margin-bottom: 0rem!important;
 }
 
 .footer .social-icons {
